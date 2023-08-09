@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ingresar productos</h1>
+    <a href="index.html">Volver al menu</a>
+    <section>
+        <label>Nombre producto</label>
+        <input id="producto-nombre" type="text">
+        <input type="button" value="Agregar" id="botonProducto">
+    </section>
+    <section>
+        <h2>Productos guardados</h2>
+        <button type="submit" onclick="recibirProductos()">Ver productos almacenados</button>
+        <div id="impresion-productos">
+        </div>
+    </section>
+    <script type="text/javascript" src="../js/carga-producto.js"></script>
+</body>
+</html>
